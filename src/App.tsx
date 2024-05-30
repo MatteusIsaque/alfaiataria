@@ -1,3 +1,4 @@
+import { WhatsappLogo } from "phosphor-react";
 import Img1 from "./img/0367968c-3cfd-41c2-a8d8-9e849b9b9f42.jpg";
 import Img2 from "./img/1009d456-2334-4e7a-900a-8c96a7abbd22-1.jpg";
 import Img3 from "./img/33864f4e-a52a-4d2a-acd8-3d03892b24fa.jpg";
@@ -14,17 +15,18 @@ import Img12 from "./img/a3aced40-6d3b-4b0a-9366-76610134c86f.jpg";
 export function App() {
   return (
     <main>
-      <div id="main-background" className="min-h-screen h-full w-full ">
-        <div className="flex flex-col justify-center items-start h-screen ml-[10%] max-w-[750px]">
-          <h1 className="text-7xl font-semibold text-start text-white">
-            Ternos sob medida para homens modernos
+      <div id="main-background" className="min-h-screen h-full w-full mobile:min-h-[90vh]">
+        <div className="flex flex-col justify-center items-start h-screen ml-[10%] max-w-[750px] mobile:h-[80vh] mobile:mx-[5%]">
+          <h1 className="text-7xl font-semibold text-start text-white mobile:text-5xl mobile:text-center mobile:leading-[55px]">
+            Roupas sob medida para pessoas modernas
           </h1>
+          <button className="border rounded-xl text-white flex justify-center items-center gap-2 text-xl px-10 py-2 mt-6 bg-[#199347] font-medium hover:bg-[#116631] transition-all mobile:w-full"><WhatsappLogo size={24} /> Falar com atendente</button>
         </div>
       </div>
 
-      <div className="min-h-screen h-full flex justify-center flex-col px-[15%]">
+      <div className="min-h-screen h-full flex justify-center flex-col px-[15%] mobile:px-[5%]">
         <div className="flex justify-center items-center flex-col text-center mb-12 mt-10">
-          <h2 className="text-4xl font-semibold mb-4">
+          <h2 className="text-4xl font-semibold mb-4 mobile:text-2xl">
             Excelência Tradicional: O Compromisso da
             <br /> Carla Siqueira Alfaiataria
           </h2>
@@ -39,7 +41,7 @@ export function App() {
             nossos clientes, sempre com elegância e precisão.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4 mobile:grid-cols-2">
           <div>
             <img src={Img1} />
           </div>
