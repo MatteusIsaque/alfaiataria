@@ -4,8 +4,8 @@ import Img2 from "./img/ALFAIATARIA henri.jpg";
 import Img7 from "./img/client.jpg";
 import Img6 from "./img/doutor.jpg";
 import Img3 from "./img/IMG_2780.jpg";
-import Img4 from "./img/IMG_9348 politico.jpg";
-import Img5 from "./img/WhatsApp Image 2024-05-16 at 19.26.03.jpeg.jpg";
+import Img4 from "./img/IMG_9348_politico.jpg";
+import Img5 from "./img/WhatsApp_Image.jpg";
 
 export function App() {
   return (
