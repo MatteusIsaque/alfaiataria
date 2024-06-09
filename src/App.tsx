@@ -21,9 +21,11 @@ export function App() {
           <h1 className="text-7xl font-semibold text-start text-white mobile:text-5xl mobile:text-center mobile:leading-[55px]">
             Roupas sob medida para pessoas modernas
           </h1>
-          <button className="border rounded-xl text-white flex justify-center items-center gap-2 text-xl px-10 py-2 mt-6 bg-[#199347] font-medium hover:bg-[#116631] transition-all mobile:w-full">
-            <WhatsappLogo size={24} /> Falar com atendente
-          </button>
+          <a href="https://wa.me/5511983462226?text=Ol%C3%A1%21+Estou+interessado%28a%29+em+saber+mais+sobre+os+seus+servi%C3%A7os+de+alfaiataria.+Voc%C3%AA+pode+me+ajudar%3F ">
+            <button className="border rounded-xl text-white flex justify-center items-center gap-2 text-xl px-10 py-2 mt-6 bg-[#199347] font-medium hover:bg-[#116631] transition-all mobile:w-full">
+              <WhatsappLogo size={24} /> Falar com atendente
+            </button>
+          </a>
         </div>
       </div>
 
@@ -72,10 +74,13 @@ export function App() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center -mt-20 mobile:mt-0 mx-[5%]">
-        <button className="border rounded-xl text-white flex justify-center items-center gap-2 text-xl px-10 py-2 mt-6 bg-[#199347] font-medium hover:bg-[#116631] transition-all mobile:w-full">
-          <WhatsappLogo size={24} /> Falar com atendente
-        </button>
+
+      <div className="flex items-center justify-center  mobile:mt-0 mx-[5%]">
+        <a href="https://wa.me/5511983462226?text=Ol%C3%A1%21+Estou+interessado%28a%29+em+saber+mais+sobre+os+seus+servi%C3%A7os+de+alfaiataria.+Voc%C3%AA+pode+me+ajudar%3F ">
+          <button className="border rounded-xl text-white flex justify-center items-center gap-2 text-xl px-10 py-2 mt-6 bg-[#199347] font-medium hover:bg-[#116631] transition-all mobile:w-full">
+            <WhatsappLogo size={24} /> Falar com atendente
+          </button>
+        </a>
       </div>
 
       <div className="mx-[15%] mt-20 mobile:mx-[5%]">
