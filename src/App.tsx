@@ -17,7 +17,7 @@ export function App() {
         id="main-background"
         className="min-h-screen h-full w-full mobile:min-h-[90vh]"
       >
-        <div className="flex flex-col justify-center items-start h-screen ml-[10%] max-w-[750px] mobile:h-[80vh] mobile:mx-[5%]">
+        <div className="flex flex-col justify-center items-start h-screen ml-[10%] max-w-[750px] mobile:h-[80vh] mobile:mx-[5%]  mobile:flex mobile:justify-center mobile:items-center">
           <h1 className="text-7xl font-semibold text-start text-white mobile:text-5xl mobile:text-center mobile:leading-[55px]">
             Roupas sob medida para pessoas modernas
           </h1>
